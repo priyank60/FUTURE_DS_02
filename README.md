@@ -55,8 +55,12 @@ The dataset contains daily performance metrics for multiple Facebook ad campaign
 ### 🧮 **Measures**
 - **CTR** = Click Through Rate  
 - **CPC** = Cost Per Click
-- **Conversion Rate**   
-- **Engagement Rate** 
+- **CR** = Conversion Rate   
+- **ER** = Engagement Rate 
+- **CPA** = Cost per conversion
+- **ROI** = Return on investment
+- **CPM** = Cost per impression
+- **ACR** = Approved Conversion Rate
 
 ---
 
