@@ -21,16 +21,17 @@ The dataset contains daily performance metrics for multiple Facebook ad campaign
 
 | **Column Name**          | **Description** |
 |---------------------------|----------------|
-| `campaign_id`            | Unique ID assigned to each campaign |
-| `age`                    | Age group of the audience (e.g., 18-24, 25-34) |
-| `gender`                 | Gender of the targeted audience (Male/Female) |
-| `date`                   | Date of ad performance record |
-| `impressions`            | Number of times the ad was shown |
-| `clicks`                 | Total number of clicks received |
-| `spent`                  | Total ad spend (in local currency) |
-| `total_conversion`       | Number of successful conversions (signups, purchases, etc.) |
-| `approved_conversion`    | Number of verified conversions approved by Facebook |
-
+|"ad_id"                    |	Unique identifier assigned to each advertisement.
+|"campaign_id"              |	Internal campaign ID used by the organization (XYZ company) to track individual ad campaigns.
+|"fb_campaign_id"           |	Campaign ID used by Facebook to track each campaign on its platform.
+|"age"                      |	Age group of the audience to whom the ad was shown.
+|"gender"                   |	Gender of the targeted audience (e.g., Male, Female).
+|"interest"                 |	Numeric code representing the interest category of the audience, based on Facebook profile data.
+|"impressions"              |	Number of times the ad was displayed to users.
+|"clicks"                   |	Total number of times users clicked on the ad.
+|"spent"                    |	Total amount (in local currency) spent by the company to display the ad.
+|"total_conversion"         |	Total number of people who enquired about the product after viewing the ad.
+|"approved_conversion"      |	Number of people who purchased the product after viewing the ad.
 ---
 
 ## 📁 Folder Structure
